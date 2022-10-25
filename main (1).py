@@ -1,0 +1,34 @@
+#This is my first simple calculator
+#Shoxrux Umirzoqov 6 Green
+import math
+print("Simple calculator")
+print("1.Addition")
+print("2.Subtraction")
+print("3.Multiplication")
+print("4.Division")
+print("5.Roots")
+print("6.Index")
+a = int(input("Choose one (1/2/3/4/5/6) "))
+if a==1:
+    b = float(input("Write first number "))
+    c = float(input("Write second number "))
+    print(b, "+", c, "=", b+c)
+if a==2:
+    b = float(input("Write first number "))
+    c = float(input("Write second number "))
+    print(b, "-", c, "=", b-c)
+if a==3:
+    b = float(input("Write first number "))
+    c = float(input("Write second number "))
+    print(b, "*", c, "=", b*c)
+if a==4:
+    b = float(input("Write first number "))
+    c = float(input("Write second number "))
+    print(b, "/", c, "=", b/c)
+if a==5:
+    b = float(input("Write number "))
+    print("√", b, "=", math.sqrt(b))
+if a==6:
+    b = float(input("Write number "))
+    c = float(input("Write index "))
+    print(b,"^", c, "=", b**c)
